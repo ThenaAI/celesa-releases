@@ -1,7 +1,7 @@
 {
-  "version": "0.6.0",
-  "build": 41,
-  "url": "https://github.com/ThenaAI/celesa-releases/releases/download/v0.6.0/Celesa-0.6.0.dmg",
-  "sha256": "606924137741519a60a1a855561d423daf75175cb8c3871e8d8f2d2643dc467d",
-  "notes": "- New logo (the chime C) and new app icon on Mac, Windows and iPhone. Named after the celesta, a keyboard that sounds like bells: Celesa is the keyboard with a voice\n- New listening animation, Trail: a fine glowing line in blue, violet, pink and orange that follows your voice, with fading echoes of the last half second. It sweeps colour while Celesa writes and ends with a check and \"Pasted\". Replaces the robot (Mac, Windows, iPhone)"
+  "version": "0.7.0",
+  "build": 18,
+  "url": "https://github.com/ThenaAI/celesa-releases/releases/download/v0.7.0/Celesa-0.7.0.dmg",
+  "sha256": "f28b6b982219391085bbddae0d077797f0c75554f82d4301bf3e331fddf39e99",
+  "notes": "- Voice lock (Mac and Windows): Settings > Voice lock > Set up my voice. Read four short sentences and Celesa only types your voice; other people talking near you are ignored, and if nobody but them spoke you see \"Not your voice\". Relaxed, Balanced or Strict sensitivity. The voiceprint is a short list of numbers on your computer, refined by every dictation you keep; no recording is stored. Uses an on-device speaker model (CAM++, about 30 MB, downloaded once at setup). If the model is missing, Celesa types everything as before\n- Releases are signed with a new \"Celesa Developer\" certificate. If you have 0.6.0, download this version by hand once from https://github.com/ThenaAI/celesa-releases and allow Microphone and Accessibility again. Later updates install from inside the app as before\n- Built-in examples and test data no longer contain real names or messages\n- Email mode signs off with \"Best,\" and lets you add your own name in the email mode file"
 }
