@@ -1,7 +1,7 @@
 {
-  "version": "0.8.0",
-  "build": 30,
-  "url": "https://github.com/ThenaAI/celesa-releases/releases/download/v0.8.0/Celesa-0.8.0.dmg",
-  "sha256": "198035de075a75a7a9194487ab07fb06887b1873900b23c550cbcd67873076ea",
-  "notes": "- Guided first-run setup (Mac, Windows, iPhone): one window walks through every permission with pictures of what to click, sets up your voice and lets you try a first sentence. No trips to Settings. People updating who are already set up don't see it\n- Help train Silent mode (Mac): in the menu. Agree, rest your face for 3 seconds, then read short sentences on camera. Everything stays on your Mac, and \"Delete all recordings\" removes it all\n- Learn my lips while I dictate (Mac, Settings > Silent mode, off by default): the camera records while you hold the hotkey so Silent mode learns how you speak. Clips stay on your Mac\n- Settings has a Silent mode section on Mac and Windows. Its switch unlocks when the lip-reading model ships"
+  "version": "0.8.1",
+  "build": 35,
+  "url": "https://github.com/ThenaAI/celesa-releases/releases/download/v0.8.1/Celesa-0.8.1.dmg",
+  "sha256": "f0be72b15162df7a02c15560abbbdb6946bd30161172959b8bbd18d4d7f64caa",
+  "notes": "- Setup now asks for the camera (Mac): a new last step, \"Help Celesa read your lips\", takes one agreement and the camera permission. Then Celesa learns your lips while you dictate, and the video stays on your Mac. \"Not now\" skips it. If you set up Celesa before this, you see just this step once after updating"
 }
